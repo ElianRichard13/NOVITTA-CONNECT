@@ -1,0 +1,10 @@
+NOVITTA CONNECT V2 — EMPRESA SIMULADA
+
+1. Extraia todos os arquivos na mesma pasta.
+2. Abra a pasta no Visual Studio Code.
+3. Inicie o Live Server sobre index.html (ou rode python -m http.server 8000 e acesse http://localhost:8000).
+4. Para testar offline: carregue o aplicativo uma vez online, abra DevTools > Application > Service Workers e depois marque Offline em Network e recarregue.
+5. O funcionamento offline depende de recursos previamente armazenados e não equivale a integração real com dispositivos.
+6. Para publicar como PWA instalavel, use hospedagem HTTPS e teste requisitos do navegador.
+
+Alteracoes: manifest externo, icones, service worker com cache versionado e limpeza de versoes antigas. O codigo funcional do aplicativo foi preservado.
